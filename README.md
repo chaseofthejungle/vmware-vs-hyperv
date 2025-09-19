@@ -23,3 +23,7 @@ TODO: A brief overview guide of two popular bare-metal hypervisors.
 <hr />
 
 ## 4. <a name="supplemental">Supplemental Resources</a>
+
+* *[Intro to Data Center Virtualization Overview Guide](https://github.com/chaseofthejungle/intro-to-data-center-virtualization/)*
+* *[Ubiquiti and Cisco Meraki Overview Guide](https://github.com/chaseofthejungle/unifi-vs-cisco-meraki)*
+* *[Intro to IP Telephony Overview Guide](https://github.com/chaseofthejungle/intro-to-ip-telephony)*
