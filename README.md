@@ -21,14 +21,20 @@ TODO: A brief overview guide of two popular bare-metal hypervisors.
 
 ## 3. <a name="comparison">VMWare vs. Hyper-V: A Comparison</a>
 
-* *VMWare* may be a better choice if a bare-metal hypervisor is needed for a massive, enterprise-level organization that can sustain larger costs. Furthermore, if there are comprehensive support needs for diverse operating systems and a desire to host various third-party utilities in an interconnected environment, VMWare may be the more sensible choice.
-* *HyperV* may be a better choice for organizations that run on Windows and would prefer to rely on Windows management utilities, and if cost consciousness is high.
-  
+| *Consideration* | *VMWare* | *Hyper-V* |
+| :---: | :---: | :----: |
+| Environment | | |
+| Management and Architecture | | |
+| OS Integrations | | |
+| Performance and Scalability | | |
+| Pricing | | |
+
 <hr />
 
 ## 4. <a name="choosing">Choosing a Bare-Metal Hypervisor</a>
 
-
+* *VMWare* may be a better choice if a bare-metal hypervisor is needed for a massive, enterprise-level organization that can sustain larger costs. Furthermore, if there are comprehensive support needs for diverse operating systems and a desire to host various third-party utilities in an interconnected environment, VMWare may be the more sensible choice.
+* *HyperV* may be a better choice for organizations that run on Windows and would prefer to rely on Windows management utilities, and if cost consciousness is high.
 
 <hr />
 
