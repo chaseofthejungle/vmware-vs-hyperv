@@ -1,5 +1,6 @@
-# vmware-vs-hyperv
-TODO: A brief overview guide of two popular bare-metal hypervisors.
+# VMWare and Hyper-V Overview Guide
+
+**Description/Overview:** VMWare (unless otherwise mentioned, this article is specifically in reference to *vSphere* and *ESXi*, a foundational technology upon which *vSphere* is built) and Microsoft's *Hyper-V* are bare-metal hypervisors that create virtual machines (VMs). Both VMWare technologies and Hyper-V are common solutions for professional deployments, but they have more than a few key differences (such as their operating environments, costs, and integrations with guest OSes). While most VMWare solutions are intended for mid-to-large scale organizations (which may be more capable of paying expensive licensing fees) with a diversity of operating system needs and compatibilities (e.g., Windows, MacOS, various Linux distributions), Hyper-V is a common free solution for Windows-specific OS environments.
 
 #### Table of Contents
 
