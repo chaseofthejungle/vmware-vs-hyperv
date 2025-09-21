@@ -24,12 +24,12 @@
 
 | *Consideration* | *VMWare* | *Hyper-V* |
 | :---: | :---: | :----: |
-| Environment | | |
-| Management and Architecture | | |
-| OS Integrations | | |
-| Performance and Scalability | | |
-| Pricing | | |
-
+| Environment | vSphere provides comprehensive environments, based on complex licenses. Abundance of Cloud integrations and third-party utilities. | Firmly integrated with Microsoft utilities and Windows Server (which it is built upon). |
+| Management and Architecture | Managed by Windows admins via VMWare vCenter Server, with a proprietary Unix-based kernel. | Managed via Hyper-V Manager, PowerShell, and similar utilities. |
+| OS Integrations | Compatible with many OSes (traditional UNIX-based, traditional Linux-based, Cloud platforms, etc.). | Intended for Windows guest OSes, with limited compatibility for non-Windows OSes. |
+| Performance and Scalability | High performance and scalability, intended for mid-to-large scale enterprises. | Potentially similar performance and scalability, but dedicated to Windows systems. |
+| Pricing | Licensing plans/fees can be costly and complicated. | Either free or bundled into Windows Server licenses. |
+ 
 <hr />
 
 ## 4. <a name="choosing">Choosing a Bare-Metal Hypervisor</a>
