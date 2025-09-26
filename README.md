@@ -21,7 +21,13 @@
 
 ## 2. <a name="threevm">Contrasting Three VMWare Components</a>
 
-(TODO)
+| *Consideration* | *VMWare ESXi* | *VMWare vCenter* | *VMWare vSphere* |
+| :---: | :---: | :----: | :----: |
+| What is It? | A bare-metal hypervisor/platform for virtualization.	| Utility for centralized server infrastructure oversight.	| Product family containing virtualization management tools and assistive software. |
+| What's the Goal? | Virtual machine configuration, deployment and execution on independent host devices. | Oversee ESXi servers and server clusters in a centralized manager that allows for pooling hosts. | Integrate the hypervisor and server management tools while providing additional functionality.  |
+| Who Might Use It? | Popular for software testing, academic and research labs, and when hardware and native OS resources are limited. | Enterprise environments that oversee multiple servers. | Enterprises with scalability needs for their virtualized servers. |
+| Does It Involve Payment? | Can be free, or paid with a vSphere license. | Paid with a vSphere license. | Licensing is set at various levels/tiers (e.g., Standard, Enterprise Plus). |
+| To What Extent Does Payment Matter? | Free version lacks advanced functionalities and does not natively integrate with vCenter.	| Extent of scalability determined by particular license purchased. | Extent of various functionalities dependent upon license level/tier. |
 
 <hr />
 
