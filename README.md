@@ -33,7 +33,9 @@
 
 ## 3. <a name="hyperv">Hyper-V Overview</a>
 
-(TODO)
+*Hyper-V* is Microsoft's virtualization platform solution (allowing for the creation and oversight of virtual machines on Windows systems), and an integrated, low-cost (and often bundled) component of Windows Server OSes. It features a practical and beginner-ready user interface (UI), fluent integration with other Microsoft software and hardware, and other technical conveniences: migrations without interruptions or downtime ('live migrations'), virtual networking capabilities, and dynamic memory allocation, for example.
+
+While Hyper-V is utilized by many different kinds of enterprises, it is not natively non-Windows OS/platform friendly (although basic Linux VMs, for example, can be configured and executed). Sometimes, such as when advanced features are required for VMs, Hyper-V is not even compatible with non-Windows OSes.
 
 <hr />
 
