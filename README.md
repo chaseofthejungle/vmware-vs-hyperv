@@ -4,22 +4,30 @@
 
 #### Table of Contents
 
-1. [VMWare Overview](#vmware)
-2. [Contrasting Three VMWare Components](#threevm)
-3. [Hyper-V Overview](#hyperv)
+1. [Hyper-V Overview](#hyperv)
+2. [VMWare Overview](#vmware)
+3. [Contrasting Three VMWare Components](#threevm)
 4. [VMWare vs. Hyper-V: A Comparison](#comparison)
 5. [Choosing a Bare-Metal Hypervisor](#choosing)
 6. [Supplemental Resources](#supplemental)
 
 <hr />
 
-## 1. <a name="vmware">VMWare Overview</a>
+## 1. <a name="hyperv">Hyper-V Overview</a>
+
+*Hyper-V* is Microsoft's virtualization platform solution (allowing for the creation and oversight of virtual machines on Windows systems), and an integrated, low-cost (and often bundled) component of Windows Server OSes. It features a practical and beginner-ready user interface (UI), fluent integration with other Microsoft software and hardware, and other technical conveniences: migrations without interruptions or downtime ('live migrations'), virtual networking capabilities, and dynamic memory allocation, for example.
+
+While Hyper-V is utilized by many different kinds of enterprises, it is not natively non-Windows OS/platform friendly (although basic Linux VMs, for example, can be configured and executed). Sometimes, such as when advanced features are required for VMs, Hyper-V is not even compatible with non-Windows OSes.
+
+<hr />
+
+## 2. <a name="vmware">VMWare Overview</a>
 
 (TODO)
 
 <hr />
 
-## 2. <a name="threevm">Contrasting Three VMWare Components</a>
+## 3. <a name="threevm">Contrasting Three VMWare Components</a>
 
 | *Consideration* | *VMWare ESXi* | *VMWare vCenter* | *VMWare vSphere* |
 | :---: | :---: | :----: | :----: |
@@ -28,14 +36,6 @@
 | Who Might Use It? | Popular for software testing, academic and research labs, and when hardware and native OS resources are limited. | Enterprise environments that oversee multiple servers. | Enterprises with scalability needs for their virtualized servers. |
 | Does It Involve Payment? | Can be free, or paid with a vSphere license. | Paid with a vSphere license. | Licensing is set at various levels/tiers (e.g., Standard, Enterprise Plus). |
 | To What Extent Does Payment Matter? | Free version lacks advanced functionalities and does not natively integrate with vCenter.	| Extent of scalability determined by particular license purchased. | Extent of various functionalities dependent upon license level/tier. |
-
-<hr />
-
-## 3. <a name="hyperv">Hyper-V Overview</a>
-
-*Hyper-V* is Microsoft's virtualization platform solution (allowing for the creation and oversight of virtual machines on Windows systems), and an integrated, low-cost (and often bundled) component of Windows Server OSes. It features a practical and beginner-ready user interface (UI), fluent integration with other Microsoft software and hardware, and other technical conveniences: migrations without interruptions or downtime ('live migrations'), virtual networking capabilities, and dynamic memory allocation, for example.
-
-While Hyper-V is utilized by many different kinds of enterprises, it is not natively non-Windows OS/platform friendly (although basic Linux VMs, for example, can be configured and executed). Sometimes, such as when advanced features are required for VMs, Hyper-V is not even compatible with non-Windows OSes.
 
 <hr />
 
