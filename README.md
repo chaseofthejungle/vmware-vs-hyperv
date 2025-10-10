@@ -53,8 +53,10 @@ While Hyper-V is utilized by many different kinds of enterprises, it is not nati
 
 ## 5. <a name="choosing">Choosing a Bare-Metal Hypervisor</a>
 
-* *VMWare* may be a better choice if a bare-metal hypervisor is needed for a massive, enterprise-level organization that can sustain larger costs. Furthermore, if there are comprehensive support needs for diverse operating systems and a desire to host various third-party utilities in an interconnected environment, VMWare may be the more sensible choice.
-* *HyperV* may be a better choice for organizations that run on Windows and would prefer to rely on Windows management utilities, and if cost consciousness is high.
+* VMWare may be a better choice if a bare-metal hypervisor is needed for a massive, enterprise-level organization that can sustain larger costs. Furthermore, if there are comprehensive support needs for diverse operating systems and a desire to host various third-party utilities in an interconnected environment, VMWare may be the more sensible choice.
+  + VMWare's ESXi is a popular solution for enterprises and Small Office Home Office networks (SOHOs) needing on-premises virtualization for varied OSes (including some discontinued ones, such as BeOS, and less popular and more nuanced-purpose ones, such as Solaris). Along these lines, it is important to remember that the bare-metal hypervisor decision comes down to particular needs/best fit.
+* HyperV may be a better choice for organizations that *run on Windows* and would prefer to rely on Windows management utilities, and if cost consciousness is high.
+  + While recent versions of Hyper-V Server (after 2019) are not free, Hyper-V *is* integrated into Windows 11 Pro and Enterprise, and contains roles for various editions of Windows Server.
 
 <hr />
 
