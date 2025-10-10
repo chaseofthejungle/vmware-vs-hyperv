@@ -31,7 +31,7 @@ While Hyper-V is utilized by many different kinds of enterprises, it is not nati
 
 | *Consideration* | *VMWare ESXi* | *VMWare vCenter* | *VMWare vSphere* |
 | :---: | :---: | :----: | :----: |
-| What is It? | A bare-metal hypervisor/platform for virtualization.	| Utility for centralized server infrastructure oversight.	| Product family containing virtualization management tools and assistive software. |
+| What is It? | A bare-metal hypervisor/platform for virtualization.	| Utility for centralized server infrastructure oversight.	| A product family containing virtualization management tools and assistive software. It interconnects ESXi instances, and is a must for enterprise VMWare management. |
 | What's the Goal? | Virtual machine configuration, deployment and execution on independent host devices. | Oversee ESXi servers and server clusters in a centralized manager that allows for pooling hosts. | Integrate the hypervisor and server management tools while providing additional functionality.  |
 | Who Might Use It? | Popular for software testing, academic and research labs, and when hardware and native OS resources are limited. | Enterprise environments that oversee multiple servers. | Enterprises with scalability needs for their virtualized servers. |
 | Does It Involve Payment? | Can be free, or paid with a vSphere license. | Paid with a vSphere license. | Licensing is set at various levels/tiers (e.g., Standard, Enterprise Plus). |
@@ -47,8 +47,19 @@ While Hyper-V is utilized by many different kinds of enterprises, it is not nati
 | Management and Architecture | Managed by Windows admins via VMWare vCenter Server, with a proprietary Unix-based kernel. | Managed via Hyper-V Manager, PowerShell, and similar utilities. |
 | OS Integrations | Compatible with many OSes (traditional UNIX-based, traditional Linux-based, Cloud platforms, etc.). | Intended for Windows guest OSes, with limited compatibility for non-Windows OSes. |
 | Performance and Scalability | High performance and scalability, intended for mid-to-large scale enterprises. | Potentially similar performance and scalability, but dedicated to Windows systems. |
-| Pricing | Licensing plans/fees can be costly and complicated. | Either free or bundled into Windows Server licenses. |
- 
+| Pricing | Licensing plans/fees can be costly and complicated. | Traditionally free, now bundled into Windows Server licenses. |
+
+**Additional constraints of free licensing for VMware ESXi:**
+
+* The trial of the full version lasts for 60 days.
+* Only permits up to to 480 logical processors at most.
+* There is a lack of support for vSphere, and limited (read-only) support for the VMWare API.
+
+**Additional constraints of free licensing for Hyper-V:**
+
+* Managing the free edition of Hyper-V can be cumbersome if Windows Server's GUI and Hyper-V roles are not integrated into the Hyper-V solution.
+ + Since Windows Server is not free (and Microsoft is not offering new free editions of Hyper-V), this introduces a budget consideration for choosing Hyper-V for virtualized deployments and configurations.
+
 <hr />
 
 ## 5. <a name="choosing">Choosing a Bare-Metal Hypervisor</a>
