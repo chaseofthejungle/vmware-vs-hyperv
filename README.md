@@ -41,7 +41,7 @@ While Hyper-V is utilized by many different kinds of enterprises, it is not nati
 
 ## 4. <a name="comparison">VMWare vs. Hyper-V: A Comparison</a>
 
-| *Consideration* | *VMWare* | *Hyper-V* |
+| *Consideration* | [*VMWare*](https://www.vmware.com/) | [*Hyper-V*](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/) |
 | :---: | :---: | :----: |
 | Environment | vSphere provides comprehensive environments, based on complex licenses. Abundance of Cloud integrations and third-party utilities. | Firmly integrated with Microsoft utilities and Windows Server (which it is built upon). |
 | Management and Architecture | Managed by Windows admins via VMWare vCenter Server, with a proprietary Unix-based kernel. | Managed via Hyper-V Manager, PowerShell, and similar utilities. |
